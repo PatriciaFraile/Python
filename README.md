@@ -1,3 +1,3 @@
 # Python
 
-#Ejercicios resueltos 
+Ejercicios resueltos 
