@@ -1,5 +1,4 @@
 #Descomponer una palabra
-nombre=input("Que palabra quieres descomponer")
-for i in nombre:
+for i in "AMIGO":
     print("Dame una",i)
-print("¡",nombre,"!")
+print("AMIGO")
