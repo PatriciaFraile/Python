@@ -18,4 +18,3 @@ def adivina_numero(x):
         elif respuesta=="b":
             numero_superior= prediccion-1
     print(f"Sii he acertado , con tu prediccion{prediccion}")
-
