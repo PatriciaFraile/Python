@@ -1,6 +1,3 @@
-from re import M
-
-
 aux= 0 
 for i in range (4):
     m= int(input("Escribe un numero"))
