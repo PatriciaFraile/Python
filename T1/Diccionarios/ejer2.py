@@ -12,7 +12,7 @@ zapatillas = {
     'precio3':preciopuma,
     'precio total':preciototal
 }
-print(zapatillas)
-
+for i in zapatillas:
+    print(zapatillas[i])
 
 
