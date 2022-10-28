@@ -4,3 +4,5 @@ lista = ["AD","DI","PDMDM","Inglés","PSP"]
 print(lista)
 for i in lista:
     print("Estudio "+ i)
+
+
