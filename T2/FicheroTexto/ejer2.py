@@ -8,6 +8,6 @@ nombre_fichero = 'tabla-' + str(n) + '.txt'
 try: 
     with open(nombre_fichero, 'r') as leer:
         lineas = leer.readlines()
-    print(lineas[m - 1])
+    print(lineas[m-1])
 except FileNotFoundError:
     print('No existe el fichero con la tabla del ', n)
