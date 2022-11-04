@@ -5,5 +5,6 @@
 n = int(input('Introduce un número entero entre 1 y 10: '))
 nombre_fichero = 'tabla-' + str(n) + '.txt'
 with open(nombre_fichero, 'w') as escribir:
-    for i in range(1, 11):
+    for i in range(1,11):
         escribir.write(str(n) + ' x ' + str(i) + ' = ' + str(n * i) + '\n')
+escribir.close()
