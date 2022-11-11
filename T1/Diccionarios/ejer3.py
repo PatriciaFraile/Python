@@ -20,3 +20,6 @@ Diccionario["Casa"]= Diccionario.pop("Grupo") #Cambiar el nombre del elemento
 print(Diccionario)
 del Diccionario['apellido'] #Borra el elemento y su valor
 print(Diccionario)
+print('Longitud')
+lon = Diccionario('apellido')
+print(len(lon))
