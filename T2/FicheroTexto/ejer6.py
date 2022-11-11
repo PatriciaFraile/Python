@@ -1,4 +1,4 @@
-#Crear un programa que alamacene ocho veces una frase en un .txt
+#Crear un programa que almacene ocho veces una frase en un .txt
 
 fichero = 'ficheroUno'+'.txt'
 with open (fichero,'a') as escribir:
