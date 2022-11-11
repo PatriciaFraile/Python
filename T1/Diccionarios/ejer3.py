@@ -1,11 +1,12 @@
 'Añadir cosas en el diccionario de Harry Potter : apellido, edad , genero y padres'
 
 Diccionario = {
-    'Nombre' :'Harry',
-    'Apellido': 'Potter',
-    'Edad': 18,
-    'Género':'Masculino',
-    'Madre':'Lili',
-    'Padre':'James'
+    'nombre' :'Harry',
+    'apellido': 'Potter',
+    'edad': 18,
+    'genero':'Masculino',
+    'madre':'Lili',
+    'padre':'James'
 }
 print(Diccionario)
+print(Diccionario['apellido'])
