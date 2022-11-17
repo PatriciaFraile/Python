@@ -15,16 +15,16 @@ while n!=5:
       print("Fichero creado ")
    elif n==2:
       print("--Añadir contacto--")
+      nombre = input("Escribe tu nombre")
+      tlfn = int(input("Escribe tu numero de telefono"))
       try:
          with open(nombre_fichero,'w')as f:
-            nombre = input("Escribe tu nombre")
-            tlfn = int(input("Escribe tu numero de telefono"))
-            f.write(nombre +','+ str(tlfn))
+             f.write(nombre + '-' + str(tlfn))
          f.close()
       except FileNotFoundError:
          print("No existe el fichero, intentalo otra vez")
    elif n==3:
-      print("Consultar agenda")
+      print("--Consultar agenda--")
       try:
          print("")
       except FileNotFoundError:
