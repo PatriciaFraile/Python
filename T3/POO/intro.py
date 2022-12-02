@@ -48,3 +48,12 @@ class Galleta():
         print("Galleta eliminada")
 galleta = Galleta()
 del(galleta)
+#Constructor str , devuelve la representación del objeto
+class Galleta():
+    def __init__(self,color):
+        self.color = color
+    def __str__(self):
+        return f"El color de la galleta es:{self.color}"
+galleta = Galleta("Marron")
+print(galleta.__str__())
+#El metodo len , devuelve la longitud , es lo mismp que el str
