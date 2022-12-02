@@ -16,11 +16,11 @@ while n!=5:
    menu()
    n = int(input("Opcion"))
    if n == 1:
-      print("--Crear fichero--")
+      print("-Crear fichero-")
       nombre_fichero = 'agenda'+'.txt'
       print("Fichero creado ")
    elif n==2:
-      print("--Añadir contacto--")
+      print("-Añadir contacto-")
       try:
          with open(nombre_fichero,'w')as f:
             nombre = input("Escribe tu nombre")
