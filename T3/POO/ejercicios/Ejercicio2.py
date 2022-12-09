@@ -7,11 +7,16 @@ class Cuenta():
     persona=[]
     cantidad = 0
     def __init__(self,cantidad,persona=[]):
-        self.cantidad = cantidad
         self.persona = persona
-        print(f"Hola {self.persona} , tu cantidad de dinero en tu cuenta es: {self.cantidad}")
+        self.cantidad = cantidad
+    def mostrarDatos(self):
+        for p in self.persona:
+            print("Hola "+str(p)+" tienes "+cantidad) #No sale
+
 nombre = input("Escribe tu nombre")
+cantidad = int(input("Escribe el dinero que tienes en tu cuenta"))
 persona = Persona(nombre)
-cuenta = Cuenta([persona])
+cuenta = Cuenta(str(cantidad),[persona])
+cuenta.mostrarDatos()
 
 
