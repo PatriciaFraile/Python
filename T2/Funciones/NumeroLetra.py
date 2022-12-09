@@ -1,4 +1,3 @@
-
 unidades = ["cero","uno","dos","tres","cuatro","cinco","seis","siete","ocho","nueve","diez"]
 decenas = ["once","doce","trece","catorce","quince","dieciseis","diecisiete","dieciocho","diecinueve"]
 diez_diez = ["veinti","treinta ","cuarenta","cincuenta","sesenta","sesenta","ochenta","noventa"]
@@ -42,7 +41,8 @@ elif(edad>29 and edad<100):
     else:
         Midiccionario["Edad"] = diez_diez[entero-2] + " y " + unidades[num]
         print(Midiccionario['Nombre'] + Midiccionario["Apellido"]+ " tiene " + Midiccionario['Edad']+ " años")
-
+else:
+    print("Tiene que ser menor de 100")
 
 
 
