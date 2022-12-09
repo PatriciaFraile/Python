@@ -1,7 +1,7 @@
-import math
+
 unidades = ["cero","uno","dos","tres","cuatro","cinco","seis","siete","ocho","nueve","diez"]
 decenas = ["once","doce","trece","catorce","quince","dieciseis","diecisiete","dieciocho","diecinueve"]
-diez_diez = ["veinte","treinta ","cuarenta","cincuenta","sesenta","sesenta","ochenta","noventa"]
+diez_diez = ["veinti","treinta ","cuarenta","cincuenta","sesenta","sesenta","ochenta","noventa"]
 
 nombre = input("Escribe tu nombre")
 apellido = input("Escribe tu apellido")
@@ -24,9 +24,18 @@ elif(edad==0):
 elif(edad<20):
     Midiccionario["Edad"] = decenas[edad-11]
     print(Midiccionario['Nombre'] + Midiccionario["Apellido"]+ " tiene " + Midiccionario['Edad']+ " años")
-elif(edad<100):
+elif(edad>=20 and edad<=29):
+      num = edad%10
+      entero = int(edad/10)
+      if(num==0):
+        Midiccionario["Edad"]="veinte"
+        print(Midiccionario['Nombre'] + Midiccionario["Apellido"]+ " tiene " + Midiccionario['Edad']+ " años")
+      else:
+        Midiccionario["Edad"] = diez_diez[entero-2] + unidades[num]
+        print(Midiccionario['Nombre'] + Midiccionario["Apellido"]+ " tiene " + Midiccionario['Edad']+ " años")
+elif(edad>29 and edad<100):
     num = edad%10
-    entero = int(math.floor(edad/10))
+    entero = int(edad/10)
     if(num==0):
             Midiccionario["Edad"] = diez_diez[entero-2]
             print(Midiccionario['Nombre'] + Midiccionario["Apellido"]+ " tiene " + Midiccionario['Edad']+ " años")
