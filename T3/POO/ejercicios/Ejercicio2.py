@@ -13,8 +13,6 @@ class Cuenta():
     def __init__(self,cantidad ,persona=[]):
         self.persona = persona
         self.cantidad = cantidad
-    def agregar(self,p):
-        self.persona.append(p)
 
     def mostrarDatos(self):
         for p in self.persona:
