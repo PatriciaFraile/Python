@@ -28,5 +28,5 @@ class Catalogo:
 p = Serie("La que se avecina", 200, 2022)
 c = Catalogo([p])  
 c.mostrar()
-c.agregar(Serie("La que se avecina", 200, 2022))  
-c.mostrar()
+#c.agregar(Serie("La que se avecina", 200, 2022))  
+#c.mostrar()
